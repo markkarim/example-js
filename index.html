@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+    <link rel="icon" href="./photo/logo.png" />
+
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="loading">
+      <span class="loader"></span>
+    </div>
+
+    <main>
+      <aside>
+        <div class="sidebar">
+          <div class="menu-side">
+            <div class="p-4">
+              <h3 class="fs-6 fw-normal pt-3 mb-4">
+                <a href="#search">Search</a>
+              </h3>
+              <h3 class="fs-6 fw-normal mb-4">
+                <a href="#categories">Categories</a>
+              </h3>
+              <h3 class="fs-6 fw-normal mb-4"><a href="">Area</a></h3>
+              <h3 class="fs-6 fw-normal mb-4"><a href="">Ingredients</a></h3>
+              <h3 class="fs-6 fw-normal"><a href="">Contact Us</a></h3>
+            </div>
+
+            <div class="social text-white p-4">
+              <div class="d-flex">
+                <i class="fa-brands fa-facebook pe-2"></i>
+                <i class="fa-brands fa-twitter pe-2"></i>
+                <i class="fa-solid fa-globe"></i>
+              </div>
+
+              <p class="">Copyright © 2019 All Rights Reserved.</p>
+            </div>
+          </div>
+
+          <div
+            class="bar-side py-4 d-flex flex-column justify-content-between align-items-center">
+            <img src="./photo/logo.png" class="w-75" alt="logo" />
+            <i class="fa-solid fa-bars open text-black fs-3 pe-auto"></i>
+            <i
+              class="fa-solid fa-xmark open d-none text-black fs-3 pe-auto"></i>
+            <div
+              class="social-bar text-black d-flex flex-column justify-content-center">
+              <i class="fa-solid fa-globe pb-2"></i>
+              <i class="fa-solid fa-share-nodes"></i>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <section class="menu" id="menu">
+        <div class="home py-5">
+          <div class="container">
+            <div class="row g-4" id="rowData"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu main-color min-vh-100 d-none" id="homeCat">
+        <div class="home py-5">
+          <div class="container">
+            <div class="row g-4" id="rowData2">
+              <div class="">
+                <div class="container">
+                  <div class="row" id="rowHome">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu main-color min-vh-100 d-none" id="search">
+        <div class="home py-5">
+          <div class="container">
+            <div class="w-75 m-auto">
+              <div class="d-flex justify-content-center">
+                <div class="mb-3 me-3 w-50">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label"></label>
+                  <input
+                    type="email"
+                    class="search-country"
+                    id="searchByName"
+                    placeholder="Search By Name" />
+                </div>
+
+                <div class="mb-3 w-50">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label"></label>
+                  <input
+                    type="email"
+                    class="search-country"
+                    id="searchByFirstLetter"
+                    placeholder="Search By First Letter" />
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-4 py-5" id="rowData1"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu main-color min-vh-100 d-none" id="categories">
+        <div class="home py-5">
+          <div class="container">
+            <div class="row g-4" id="rowData3"></div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      
+      <section></section>
+    </main>
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
